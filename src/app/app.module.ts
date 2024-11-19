@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { ComponentsModule } from './components/components.module';
 import { HomeModule } from './home/home.module';
+import { CardsModule } from './components/cards.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { HomeModule } from './home/home.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ComponentsModule,
+    CardsModule,
     HomeModule
   ],
   providers: [],
